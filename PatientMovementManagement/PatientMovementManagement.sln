@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMovementManagement", "PatientMovementManagement\PatientMovementManagement.csproj", "{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{84699DD5-C83F-44BB-881B-C0EA3B12B1D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A2A9BB21-E008-41A2-8BC3-1B6FDE07DEBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{73405AB4-CA07-4AC4-8365-BFAC766BB6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB8AF2D1-DF15-45A6-A338-59DD45C5D3A6} = {73405AB4-CA07-4AC4-8365-BFAC766BB6FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE031EEB-F466-4638-BB89-199AE3018BE4}
+	EndGlobalSection
+EndGlobal
