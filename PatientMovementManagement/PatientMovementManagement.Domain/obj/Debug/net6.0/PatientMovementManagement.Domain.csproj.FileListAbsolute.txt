@@ -1,0 +1,12 @@
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\bin\Debug\net6.0\PatientMovementManagement.Domain.deps.json
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\bin\Debug\net6.0\PatientMovementManagement.Domain.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\bin\Debug\net6.0\PatientMovementManagement.Domain.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.csproj.AssemblyReference.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.AssemblyInfoInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.AssemblyInfo.cs
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.csproj.CoreCompileInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\refint\PatientMovementManagement.Domain.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\PatientMovementManagement.Domain.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Domain\obj\Debug\net6.0\ref\PatientMovementManagement.Domain.dll

@@ -1,0 +1,17 @@
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Infrastructure.deps.json
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Infrastructure.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Infrastructure.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Application.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Domain.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Application.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\bin\Debug\net6.0\PatientMovementManagement.Domain.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.AssemblyInfo.cs
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.csproj.CopyComplete
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\refint\PatientMovementManagement.Infrastructure.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\PatientMovementManagement.Infrastructure.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Infrastructure\obj\Debug\net6.0\ref\PatientMovementManagement.Infrastructure.dll

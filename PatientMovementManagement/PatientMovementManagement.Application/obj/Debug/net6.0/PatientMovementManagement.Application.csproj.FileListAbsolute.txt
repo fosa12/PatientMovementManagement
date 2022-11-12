@@ -1,0 +1,15 @@
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\bin\Debug\net6.0\PatientMovementManagement.Application.deps.json
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\bin\Debug\net6.0\PatientMovementManagement.Application.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\bin\Debug\net6.0\PatientMovementManagement.Application.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\bin\Debug\net6.0\PatientMovementManagement.Domain.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\bin\Debug\net6.0\PatientMovementManagement.Domain.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.csproj.AssemblyReference.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.AssemblyInfoInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.AssemblyInfo.cs
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.csproj.CoreCompileInputs.cache
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.csproj.CopyComplete
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\refint\PatientMovementManagement.Application.dll
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\PatientMovementManagement.Application.pdb
+C:\repoGit\PracaInz\PatientMovementManagement\PatientMovementManagement.Application\obj\Debug\net6.0\ref\PatientMovementManagement.Application.dll

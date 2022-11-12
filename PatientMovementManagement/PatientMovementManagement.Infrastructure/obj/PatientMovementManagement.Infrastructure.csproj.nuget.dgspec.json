@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Infrastructure\\PatientMovementManagement.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\PatientMovementManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\PatientMovementManagement.Application.csproj",
+        "projectName": "PatientMovementManagement.Application",
+        "projectPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\PatientMovementManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\liczn\\.nuget\\packages\\",
+        "outputPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liczn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\PatientMovementManagement.Domain.csproj": {
+                "projectPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\PatientMovementManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\PatientMovementManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\PatientMovementManagement.Domain.csproj",
+        "projectName": "PatientMovementManagement.Domain",
+        "projectPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\PatientMovementManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\liczn\\.nuget\\packages\\",
+        "outputPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liczn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Infrastructure\\PatientMovementManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Infrastructure\\PatientMovementManagement.Infrastructure.csproj",
+        "projectName": "PatientMovementManagement.Infrastructure",
+        "projectPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Infrastructure\\PatientMovementManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\liczn\\.nuget\\packages\\",
+        "outputPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liczn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\PatientMovementManagement.Application.csproj": {
+                "projectPath": "C:\\repoGit\\PracaInz\\PatientMovementManagement\\PatientMovementManagement.Application\\PatientMovementManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
