@@ -13,5 +13,6 @@ namespace PatientMovementManagement.Domain.Entities
         public WorkPlan WorkPlan { get; set; }
         public DateTime WorkStart { get; set; }
         public DateTime WorkEnd { get; set; }
+        public ICollection<AvailableVisit>? AvailableVisits { get; set; }
     }
 }

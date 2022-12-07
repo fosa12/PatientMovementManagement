@@ -16,5 +16,6 @@ namespace PatientMovementManagement.Domain.Entities
         public string? Specialization { get; set; }
         public WorkPlan WorkPlan { get; set; }
         public ICollection<Visit> Visits { get; set; }
+        public ICollection<AvailableVisit> AvailableVisits { get; set; }
     }
 }

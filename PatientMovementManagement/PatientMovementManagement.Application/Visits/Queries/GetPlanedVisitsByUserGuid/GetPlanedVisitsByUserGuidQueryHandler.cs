@@ -22,7 +22,7 @@ namespace PatientMovementManagement.Application.Visits.Queries.GetPlanedVisitsBy
         {
             var patientId = await GetPatientId(request.UserGuid);
 
-            var visits =  _context.Visits.Where(v => v.PatientId == patientId && v.IsVisitTookPlace == false && v.StatusId == 1).Include(d => d.Employee);
+            var visits = _context.Visits.Where(v => v.PatientId == patientId && v.IsVisitTookPlace == false && v.StatusId == 1).Include(d => d.Employee);
 
             PlanedVisitsVm planedVisitsVm = MapPlanedVisits(visits);
 

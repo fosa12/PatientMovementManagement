@@ -9,8 +9,6 @@ namespace PatientMovementManagement.Application.Visits.Commands.CreateVisit
 {
     public class CreateVisitCommand : IRequest<int>
     {
-        public Guid UserId { get; set; }
-        public Guid DoctorId { get; set; }
-        public DateTime VisitDateTime { get; set; }
+        public CreateVisitVm VisitToCreate { get; set; }
     }
 }

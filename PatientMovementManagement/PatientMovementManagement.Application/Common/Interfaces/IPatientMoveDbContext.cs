@@ -15,7 +15,7 @@ namespace PatientMovementManagement.Application.Common.Interfaces
         public DbSet<WorkPlan> WorkPlans { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Employee> Employees { get; set; }
-
+        public DbSet<AvailableVisit> AvailableVisits { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken());
     }

@@ -23,7 +23,11 @@ builder.Services.AddCors(opt =>
 opt.AddPolicy(name: "MyAllowSpecificOrgins",
 builder =>
 {
-    builder.WithOrigins("http://localhost:3000");
+    builder.WithOrigins("http://localhost:3000")
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+                  //.AllowCredentials()
+                  //.SetPreflightMaxAge(TimeSpan.FromSeconds(2520));
 }));
 
 var app = builder.Build();
@@ -37,7 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors();
+app.UseCors("MyAllowSpecificOrgins");
 
 app.UseAuthorization();
 

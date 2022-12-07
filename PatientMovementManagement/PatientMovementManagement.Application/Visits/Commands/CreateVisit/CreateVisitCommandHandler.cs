@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using PatientMovementManagement.Application.Common.Interfaces;
 using PatientMovementManagement.Domain.Entities;
 using System;
@@ -20,15 +21,20 @@ namespace PatientMovementManagement.Application.Visits.Commands.CreateVisit
 
         public async Task<int> Handle(CreateVisitCommand request, CancellationToken cancellationToken)
         {
+            var availableVisit = await _context.AvailableVisits.Where(a => a.Id == request.VisitToCreate.AvailableVisitId).FirstOrDefaultAsync();
+
             Visit visit = new Visit()
             {
-                VisitDateTime = request.VisitDateTime,
-                VisitCode = "123",
-                IsVisitTookPlace = false,
+                EmployeeId = availableVisit.EmployeeId,
+                PatientId = request.VisitToCreate.UserId,
+                StatusId = 1,
+                VisitCode = availableVisit.VisitCode,
+                VisitDateTime = availableVisit.VisitDateTime,
+                IsVisitTookPlace = false
             };
 
+            _context.AvailableVisits.Remove(availableVisit);
             _context.Visits.Add(visit);
-
             await _context.SaveChangesAsync(cancellationToken);
 
             return visit.Id;

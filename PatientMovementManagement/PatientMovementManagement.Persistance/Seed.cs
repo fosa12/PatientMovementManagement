@@ -348,7 +348,84 @@ namespace PatientMovementManagement.Persistance
                     VisitCode = "TEST12"
                 });
             });
+            //add workplan
+            modelBuilder.Entity<WorkPlan>(w =>
+            {
+                w.HasData(new WorkPlan()
+                {
+                    Id = 1,
+                    EmployeeId = 1,
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+                });
+            });
+            //add DaysInWrokPlan
+            modelBuilder.Entity<DayInWorkPlan>(d =>
+            {
+                d.HasData(new DayInWorkPlan()
+                {
+                    Id = 1,
+                    WorkPlanId = 1,
+                    WorkStart = new DateTime(2022,11,28,8,0,0),
+                    WorkEnd = new DateTime(2022, 11, 28, 16, 0, 0),
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+
+                });
+            });
+            modelBuilder.Entity<DayInWorkPlan>(d =>
+            {
+                d.HasData(new DayInWorkPlan()
+                {
+                    Id = 2,
+                    WorkPlanId = 1,
+                    WorkStart = new DateTime(2022, 11, 29, 8, 0, 0),
+                    WorkEnd = new DateTime(2022, 11, 29, 16, 0, 0),
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+                });
+            });
+            modelBuilder.Entity<DayInWorkPlan>(d =>
+            {
+                d.HasData(new DayInWorkPlan()
+                {
+                    Id = 3,
+                    WorkPlanId = 1,
+                    WorkStart = new DateTime(2022, 11, 30, 8, 0, 0),
+                    WorkEnd = new DateTime(2022, 11, 30, 16, 0, 0),
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+                });
+            });
+            modelBuilder.Entity<DayInWorkPlan>(d =>
+            {
+                d.HasData(new DayInWorkPlan()
+                {
+                    Id = 4,
+                    WorkPlanId = 1,
+                    WorkStart = new DateTime(2022, 12, 1, 8, 0, 0),
+                    WorkEnd = new DateTime(2022, 12, 1, 16, 0, 0),
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+                });
+            });
+            modelBuilder.Entity<DayInWorkPlan>(d =>
+            {
+                d.HasData(new DayInWorkPlan()
+                {
+                    Id = 5,
+                    WorkPlanId = 1,
+                    WorkStart = new DateTime(2022, 12, 1, 8, 0, 0),
+                    WorkEnd = new DateTime(2022, 12, 1, 16, 0, 0),
+                    CreatedBy = "SYSTEM",
+                    StatusId = 1,
+                });
+            });
         }
     }
 }
 
+//public int WorkPlanId { get; set; }
+//public WorkPlan WorkPlan { get; set; }
+//public DateTime WorkStart { get; set; }
+//public DateTime WorkEnd { get; set; }

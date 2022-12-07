@@ -16,9 +16,4 @@
     <ProjectReference Include="..\PatientMovementManagement.Domain\PatientMovementManagement.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Administration\Commands\" />
-    <Folder Include="Administration\Queries\" />
-  </ItemGroup>
-
 </Project>

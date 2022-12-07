@@ -22,6 +22,58 @@ namespace PatientMovementManagement.Persistance.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("PatientMovementManagement.Domain.Entities.AvailableVisit", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DayInWorkPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("Inactivated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("InactivatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("Modified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StatusId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VisitCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("VisitDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DayInWorkPlanId");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("AvailableVisits");
+                });
+
             modelBuilder.Entity("PatientMovementManagement.Domain.Entities.DayInWorkPlan", b =>
                 {
                     b.Property<int>("Id")
@@ -66,6 +118,58 @@ namespace PatientMovementManagement.Persistance.Migrations
                     b.HasIndex("WorkPlanId");
 
                     b.ToTable("DaysInWorkPlan");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            StatusId = 1,
+                            WorkEnd = new DateTime(2022, 11, 28, 16, 0, 0, 0, DateTimeKind.Unspecified),
+                            WorkPlanId = 1,
+                            WorkStart = new DateTime(2022, 11, 28, 8, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            StatusId = 1,
+                            WorkEnd = new DateTime(2022, 11, 29, 16, 0, 0, 0, DateTimeKind.Unspecified),
+                            WorkPlanId = 1,
+                            WorkStart = new DateTime(2022, 11, 29, 8, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            StatusId = 1,
+                            WorkEnd = new DateTime(2022, 11, 30, 16, 0, 0, 0, DateTimeKind.Unspecified),
+                            WorkPlanId = 1,
+                            WorkStart = new DateTime(2022, 11, 30, 8, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            StatusId = 1,
+                            WorkEnd = new DateTime(2022, 12, 1, 16, 0, 0, 0, DateTimeKind.Unspecified),
+                            WorkPlanId = 1,
+                            WorkStart = new DateTime(2022, 12, 1, 8, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            StatusId = 1,
+                            WorkEnd = new DateTime(2022, 12, 1, 16, 0, 0, 0, DateTimeKind.Unspecified),
+                            WorkPlanId = 1,
+                            WorkStart = new DateTime(2022, 12, 1, 8, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("PatientMovementManagement.Domain.Entities.Employee", b =>
@@ -124,7 +228,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4133),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1490),
                             CreatedBy = "SYSTEM",
                             FirstName = "Jan",
                             LastName = "Kowalski",
@@ -136,7 +240,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 2,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4194),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1550),
                             CreatedBy = "SYSTEM",
                             FirstName = "Andrzej",
                             LastName = "Lesno",
@@ -148,7 +252,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 3,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4205),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1562),
                             CreatedBy = "SYSTEM",
                             FirstName = "Edward",
                             LastName = "Abramczuk",
@@ -160,7 +264,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 4,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4214),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1572),
                             CreatedBy = "SYSTEM",
                             FirstName = "Ewa",
                             LastName = "Kowalska",
@@ -172,7 +276,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 5,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4222),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1581),
                             CreatedBy = "SYSTEM",
                             FirstName = "Janina",
                             LastName = "Konieczna",
@@ -236,7 +340,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4240),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1599),
                             CreatedBy = "SYSTEM",
                             FirstName = "Piotr",
                             LastName = "Konieczny",
@@ -247,7 +351,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 2,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4251),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1611),
                             CreatedBy = "SYSTEM",
                             FirstName = "Andrzej",
                             LastName = "Wajda",
@@ -258,7 +362,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 3,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4260),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1623),
                             CreatedBy = "SYSTEM",
                             FirstName = "Jan",
                             LastName = "Jagiełło",
@@ -269,7 +373,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 4,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4270),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1633),
                             CreatedBy = "SYSTEM",
                             FirstName = "Krystyna",
                             LastName = "Kowalska",
@@ -280,7 +384,7 @@ namespace PatientMovementManagement.Persistance.Migrations
                         new
                         {
                             Id = 5,
-                            Created = new DateTime(2022, 11, 12, 18, 19, 34, 228, DateTimeKind.Local).AddTicks(4281),
+                            Created = new DateTime(2022, 11, 29, 11, 9, 34, 79, DateTimeKind.Local).AddTicks(1642),
                             CreatedBy = "SYSTEM",
                             FirstName = "Michał",
                             LastName = "Żabiński",
@@ -553,6 +657,33 @@ namespace PatientMovementManagement.Persistance.Migrations
                         .IsUnique();
 
                     b.ToTable("WorkPlans");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedBy = "SYSTEM",
+                            EmployeeId = 1,
+                            StatusId = 1
+                        });
+                });
+
+            modelBuilder.Entity("PatientMovementManagement.Domain.Entities.AvailableVisit", b =>
+                {
+                    b.HasOne("PatientMovementManagement.Domain.Entities.DayInWorkPlan", "DayInWorkPlan")
+                        .WithMany("AvailableVisits")
+                        .HasForeignKey("DayInWorkPlanId");
+
+                    b.HasOne("PatientMovementManagement.Domain.Entities.Employee", "Employee")
+                        .WithMany("AvailableVisits")
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DayInWorkPlan");
+
+                    b.Navigation("Employee");
                 });
 
             modelBuilder.Entity("PatientMovementManagement.Domain.Entities.DayInWorkPlan", b =>
@@ -596,8 +727,15 @@ namespace PatientMovementManagement.Persistance.Migrations
                     b.Navigation("Employee");
                 });
 
+            modelBuilder.Entity("PatientMovementManagement.Domain.Entities.DayInWorkPlan", b =>
+                {
+                    b.Navigation("AvailableVisits");
+                });
+
             modelBuilder.Entity("PatientMovementManagement.Domain.Entities.Employee", b =>
                 {
+                    b.Navigation("AvailableVisits");
+
                     b.Navigation("Visits");
 
                     b.Navigation("WorkPlan")
